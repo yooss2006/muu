@@ -1,5 +1,7 @@
+import AppProvider from './providers/app';
+
 function App() {
-  return <div>하이2</div>;
+  return <AppProvider>하이</AppProvider>;
 }
 
 export default App;
